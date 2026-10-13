@@ -1,0 +1,21 @@
+
+title: "Auto Servis Milanče"
+description: "Mobilni automehaničar i auto bravar u Kragujevcu. Kontaktirajte Auto Servis Milanče za informacije o uslugama na terenu."
+url: "https://autoservismilance.rs"
+baseurl: ""
+
+lang: "sr-RS"
+timezone: "Europe/Belgrade"
+
+markdown: kramdown
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - Gemfile.lock
